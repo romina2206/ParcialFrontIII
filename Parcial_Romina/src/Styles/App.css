@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h3{
+  color: rgb(35, 161, 157);
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  font-size: 25px;
+}
+
+.home{
+  display: flex;
+  flex-direction:  column;
+  align-items: center;
+  border-radius:  10px;
+}
+

@@ -1,16 +1,13 @@
-import Card from "./Components/Card";
+import './Styles/App.css'
+import Formulario from './Components/Formulario'
 
-
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Carga de estudiantes</h1>
-      <form></form>
-      <Card/>
+    <div className="home">
+      <h3>Fomula 1</h3>
+      <Formulario/>
     </div>
-  );
+  )
 }
 
-
-export default App;
+export default App
