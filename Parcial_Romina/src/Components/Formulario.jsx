@@ -16,7 +16,7 @@ const Formulario = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        if (cliente.nombre.length > 3 && cliente.marca.length > 5 && !cliente.marca.includes(' ')) {
+        if (cliente.nombre.length > 2 && cliente.marca.length > 5 && !cliente.marca.includes(' ')) {
             setShow(true);
             setError(false);
             setRespuestaVisible(true);
